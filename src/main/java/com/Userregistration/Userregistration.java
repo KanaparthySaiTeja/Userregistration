@@ -4,7 +4,7 @@ package com.Userregistration;
  * Hello world!
  *
  */
-public class App 
+public class Userregistration
 {
     public static void main( String[] args )
     {
