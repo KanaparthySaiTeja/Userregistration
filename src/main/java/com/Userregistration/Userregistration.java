@@ -10,11 +10,11 @@ import java.util.Scanner;
 public class UserRegistration {
 	
 	public static void setPassword(String password) {
-		String regex = "^(?=.*[A-Z])(?=.*[0-9]).{8,}$";
+		String regex = "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[@#$%^&-+=()])(?=\\S+$).{8,}$";
 		if (password.matches(regex))
-			System.out.println("Mobile Number is Valid");
+			System.out.println("Number is Valid");
 		else
-			System.out.println("Mobile Number is Invalid");
+			System.out.println(" Number is Invalid");
 	}
 
 	public static void main(String[] args) {
